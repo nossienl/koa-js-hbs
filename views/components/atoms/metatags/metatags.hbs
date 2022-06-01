@@ -1,0 +1,5 @@
+{{#if metadata}}
+    {{#each metadata.metatags}}
+        <meta name="{{this.name}}" content="{{this.content}}">
+    {{/each}}
+{{/if}}
